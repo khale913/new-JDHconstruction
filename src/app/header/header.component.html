@@ -1,2 +1,33 @@
-<h2 routerLink="/services" routerLinkActive="active">HEADER</h2>
-<h2 routerLink="/">home</h2>
+<!-- <h2 routerLink="/services" routerLinkActive="active">HEADER</h2>
+<h2 routerLink="/">home</h2> -->
+<div class="topnav" id="myTopnav" (scroll)="onScrollEvent($event)">
+  <div class="company-logo">
+    <h2>JDH CONSTRUCTION</h2>
+  </div>
+  <div class="tab-container">
+    <a href="#home">HOME</a>
+    <div class="dropdown">
+      <button class="dropbtn">SERVICES
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">WATER & FLOOD</a>
+        <a href="#">FIRE & SMOKE</a>
+        <a href="#">MOLD</a>
+      </div>
+    </div>
+    <a href="#contact">LOCATIONS</a>
+    <div class="dropdown">
+      <button class="dropbtn">CAREERS
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <a href="#about">CONTACT US</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
