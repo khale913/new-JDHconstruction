@@ -4,10 +4,30 @@
   box-sizing: border-box;
 }
 
-.top-header {
+.test{
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 20px;
-  background-color: red;
+  height: 30px;
+
+}
+
+.red {
+  flex: 3;
+  background-color: #3971B8;
+}
+
+.blue {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1.3;
+  background-color: #C4291B;
+}
+
+.blue h2 {
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: white;
 }
 
 /* Company Logo */
@@ -26,24 +46,18 @@
 .topnav {
   width: 100%;
   transition:  0.7s;
-  // position: fixed;
   padding: 20px 5px;
-  // top: 0;
   background-color: #202020;
   display: flex;
   justify-content: space-between;
 }
 
-.test{
-  width: 100%;
-  height: 20px;
-  background-color: orange;
-}
-
+// on scroll effects
 .less-padding {
   padding: 0px;
 }
 
+// on scroll effects
 .sticky {
   position: fixed;
   top: 0;

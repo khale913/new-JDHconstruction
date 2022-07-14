@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
     // console.log(event);
     // console.log(window.pageYOffset)
     console.log(window.scrollY)
-    if (window.pageYOffset >= 20 || window.scrollY >= 20) {
+    if (window.pageYOffset >= 30 || window.scrollY >= 30) {
       this.sticky = true;
     } else {
       this.sticky = false;
