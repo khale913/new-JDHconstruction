@@ -1,6 +1,6 @@
 <!-- <h2 routerLink="/services" routerLinkActive="active">HEADER</h2>
 <h2 routerLink="/">home</h2> -->
-<div class="topnav" id="myTopnav" (scroll)="onScrollEvent($event)">
+<div class="topnav" id="myTopnav" [ngClass]="{ 'less-padding': lessPadding === true}" (scroll)="onScrollEvent($event)">
   <div class="company-logo">
     <h2>JDH CONSTRUCTION</h2>
   </div>

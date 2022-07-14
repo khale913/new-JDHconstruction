@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.top-header {
+  width: 100%;
+  height: 20px;
+  background-color: red;
+}
+
 /* Company Logo */
 .company-logo {
   color: white;
@@ -18,10 +24,18 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
+  width: 100%;
+  transition:  0.4s;
+  position: fixed;
+  padding: 20px 5px;
+  top: 0;
   background-color: #202020;
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
+}
+
+.less-padding {
+  padding: 0px;
 }
 
 /* Style the links inside the navigation bar */
