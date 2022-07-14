@@ -25,17 +25,29 @@
 /* Add a black background color to the top navigation */
 .topnav {
   width: 100%;
-  transition:  0.4s;
-  position: fixed;
+  transition:  0.7s;
+  // position: fixed;
   padding: 20px 5px;
-  top: 0;
+  // top: 0;
   background-color: #202020;
   display: flex;
   justify-content: space-between;
 }
 
+.test{
+  width: 100%;
+  height: 20px;
+  background-color: orange;
+}
+
 .less-padding {
   padding: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
