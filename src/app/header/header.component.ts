@@ -11,11 +11,11 @@ export class HeaderComponent implements OnInit {
     // console.log(event);
     // console.log(window.pageYOffset)
     console.log(window.scrollY)
-    if (window.pageYOffset >= 30 || window.scrollY >= 30) {
-      this.sticky = true;
-    } else {
-      this.sticky = false;
-    }
+    // if (window.pageYOffset >= 0 || window.scrollY >= 0) {
+    //   this.sticky = true;
+    // } else {
+    //   this.sticky = false;
+    // }
 
     if (window.pageYOffset >= 90 || window.scrollY >= 90) {
       this.lessPadding = true;

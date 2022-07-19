@@ -4,101 +4,98 @@
   box-sizing: border-box;
 }
 
-.test{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 30px;
-
-}
-
-.red {
-  flex: 3;
-  background-color: #3971B8;
-}
-
-.blue {
-  display: flex;
-  justify-content: flex-start;
-  flex: 1.3;
-  background-color: #C4291B;
-}
-
-.blue h2 {
-  padding-left: 1rem;
-  font-size: 1rem;
-  color: white;
-}
-
-/* Company Logo */
-.company-logo {
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.company-logo h2 {
-  margin: 0;
-  padding: 0;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  width: 100%;
-  transition:  0.7s;
-  padding: 20px 5px;
-  background-color: #202020;
+.top-nav {
   display: flex;
   justify-content: space-between;
+  // padding-bottom: 1rem;
+  // padding-top: 2rem;
 }
 
-// on scroll effects
-.less-padding {
-  padding: 0px;
+.tab-contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-// on scroll effects
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.email-box {
+  display: flex;
+  padding-right: 5rem;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+.email-box h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  font-size: .7rem;
+  margin: 0;
+}
+
+.phone-icon {
+  height: 12px;
+  width: 12px;
+  margin-left: 8px;
+  margin-right: 3px;
+  fill: rgb(203, 0, 0);
+}
+
+.email {
+  padding-left: 20px;
+}
+
+.nav-tabs-container {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 70%;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav-btn {
+  color: black;
+  margin: 0 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 13px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
+.nav-btn:hover {
+  border-bottom: 2px solid rgb(230, 0, 0);
 }
 
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
-  float: left;
+  width: min-content;
   overflow: hidden;
 }
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 17px;
+  font-size: 13px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
   border: none;
+  white-space: nowrap;
   outline: none;
-  color: white;
-  padding: 14px 16px;
+  // color: white;
+  color: black;
+  // padding: 14px 16px;
+  padding: 0 10px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -112,10 +109,12 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  padding-top: .5rem;
 }
 
 /* Style the links inside the dropdown */
 .dropdown-content a {
+  white-space: nowrap;
   float: none;
   color: black;
   padding: 12px 16px;
@@ -124,10 +123,12 @@
   text-align: left;
 }
 
+
+
 /* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
+  // background-color: #555;
+  // color: white;
 }
 
 /* Add a grey background to dropdown links on hover */

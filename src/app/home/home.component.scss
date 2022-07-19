@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-bar {
+  width: 100%;
+  background-color: rgb(19,30,99);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-bar h2 {
+  font-size: .85rem;
+  color: white;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.phone-icon {
+  height: 12px;
+  width: 12px;
+  margin-left: 8px;
+  margin-right: 3px;
+  fill: rgb(155, 0, 0);
+}
+
+.home-img {
+  width: 100%;
+  filter: brightness(.8);
+}
+
+
+.relative {
+  position:relative;
+}
+
+.text {
+  position: absolute;
+  color: red;
+  top:0;
+}
+
+.image{
+  background:url('../../assets/images/chuttersnap-jp9JczGYMnY-unsplash.jpg') no-repeat;
+  background-size:100%;
+  height:0;
+  padding-top:100.44%;  /* (bg image width/ bg image height) * 100*/
+
+}
