@@ -44,10 +44,22 @@
   top:0;
 }
 
-.image{
-  background:url('../../assets/images/chuttersnap-jp9JczGYMnY-unsplash.jpg') no-repeat;
-  background-size:100%;
-  height:0;
-  padding-top:100.44%;  /* (bg image width/ bg image height) * 100*/
+// .image{
+//   // background:url('../../assets/images/chuttersnap-jp9JczGYMnY-unsplash.jpg') no-repeat;
+//   background-image : linear-gradient(to right, rgb(31, 1, 198) 0%,rgba(147, 147, 147, 0) 100%), url('../../assets/images/newimg.jpg');
+//   // background-repeat: no-repeat;
+//   // background-size:100%;
+//   background-repeat: no-repeat;
+//   background-size: 100% ;
+//   height:0;
+//   padding-top:100.44%;  /* (bg image width/ bg image height) * 100*/
 
+// }
+
+.image {
+  height: 700px;
+  background-image: linear-gradient(to right, rgb(19, 86, 255) 2%, transparent 95%),
+                    url('../../assets/images/newimg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%, cover;
 }
