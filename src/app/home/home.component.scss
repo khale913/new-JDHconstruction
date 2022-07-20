@@ -1,3 +1,6 @@
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Oswald', sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -38,27 +41,96 @@
   position:relative;
 }
 
+// image text
 .text {
   position: absolute;
   color: red;
-  top:0;
+  top: 0;
+  margin-left: 2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-// .image{
-//   // background:url('../../assets/images/chuttersnap-jp9JczGYMnY-unsplash.jpg') no-repeat;
-//   background-image : linear-gradient(to right, rgb(31, 1, 198) 0%,rgba(147, 147, 147, 0) 100%), url('../../assets/images/newimg.jpg');
-//   // background-repeat: no-repeat;
-//   // background-size:100%;
-//   background-repeat: no-repeat;
-//   background-size: 100% ;
-//   height:0;
-//   padding-top:100.44%;  /* (bg image width/ bg image height) * 100*/
+.decor-line {
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  height: 250px;
+  width: 3px;
+  background-color: rgb(216, 0, 0);
+}
 
-// }
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.8rem;
+  margin: 0;
+  font-weight: 600;
+  color: white;
+}
+
+.subtext {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  color: WHITE;
+}
+
+.margin-bot {
+  margin-bottom: 2.5rem;
+}
+
+.colored-text {
+  // color: rgb(223, 27, 27);
+  color: rgb(0, 170, 255);
+}
+
+
+
+.location {
+  font-size: 1.6rem;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.contact-btn {
+  border-radius: 2rem;
+  width: min-content;
+  min-width: 130px;
+  padding: 10px 20px;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid rgb(223, 27, 27);
+  color: white;
+  margin-right: 1rem;
+}
+.about-btn {
+  border-radius: 2rem;
+  width: min-content;
+  min-width: 130px;
+  padding: 10px 20px;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+//////////////////////
 
 .image {
-  height: 700px;
-  background-image: linear-gradient(to right, rgb(19, 86, 255) 2%, transparent 95%),
+  height: 500px;
+  // background-image: linear-gradient(to right, rgba(40, 69, 255, 0.659) 40%, transparent 80%),
+  //                   url('../../assets/images/newimg.jpg');
+  background-image: linear-gradient(to right, rgba(19, 30, 99, 0.675) 30%, transparent 80%),
                     url('../../assets/images/newimg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
