@@ -9,6 +9,7 @@
 
 .contact-bar {
   width: 100%;
+  overflow-x: hidden;
   background-color: rgb(19,30,99);
   display: flex;
   flex-direction: row;
@@ -34,11 +35,15 @@
 .home-img {
   width: 100%;
   filter: brightness(.8);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 
 .relative {
   position:relative;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 // image text
@@ -143,10 +148,82 @@
 
 .image {
   height: 500px;
+  width: 100%;
   // background-image: linear-gradient(to right, rgba(40, 69, 255, 0.659) 40%, transparent 80%),
   //                   url('../../assets/images/newimg.jpg');
+  // background-image: linear-gradient(to right, rgba(19, 30, 99, 0.675) 10%, transparent 70%),
+  //                   url('../../assets/images/newhomes.jpg');
   background-image: linear-gradient(to right, rgba(19, 30, 99, 0.675) 10%, transparent 70%),
                     url('../../assets/images/newimg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
+}
+
+// WHAT WE DO SECTION
+////////////////////////////////////
+.what-we-do-container {
+  width: 100%;
+  height: 450px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.what-text {
+  height: 300px;
+  // flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-right: 2.5%;
+  margin: 0;
+}
+
+.horizontal-line {
+  position: relative;
+  bottom: 40px;
+  right: 20px;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  background-color:  rgb(0, 170, 255);
+}
+
+.img-line {
+  width: 6px;
+  height: 200px;
+  background-color: rgb(223, 27, 27);
+}
+
+.what-head {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: -1rem;
+}
+
+.what-subhead {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  line-height: 20px;
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.informational-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.what-we-img-container {
+  display: flex;
+}
+
+.what-we-img-container img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
 }
