@@ -17,17 +17,15 @@ export class HeaderComponent implements OnInit {
     //   this.sticky = false;
     // }
 
-    if (window.pageYOffset >= 90 || window.scrollY >= 90) {
-      this.lessPadding = true;
-    } else {
-      this.lessPadding = false;
-    }
   }
-  lessPadding: boolean = false;
-  sticky: boolean = false;
+  openOverlay: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  openOverlayMenu() {
+    this.openOverlay = !this.openOverlay;
   }
 
 }
