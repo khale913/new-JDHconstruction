@@ -7,17 +7,17 @@ import { windowCount, windowWhen } from 'rxjs';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  @HostListener("window:scroll", ['$event']) onScrollEvent(event: any) {
-    // console.log(event);
-    // console.log(window.pageYOffset)
-    console.log(window.scrollY)
-    // if (window.pageYOffset >= 0 || window.scrollY >= 0) {
-    //   this.sticky = true;
-    // } else {
-    //   this.sticky = false;
-    // }
+  // @HostListener("window:scroll", ['$event']) onScrollEvent(event: any) {
+  //   // console.log(event);
+  //   // console.log(window.pageYOffset)
+  //   console.log(window.scrollY)
+  //   // if (window.pageYOffset >= 0 || window.scrollY >= 0) {
+  //   //   this.sticky = true;
+  //   // } else {
+  //   //   this.sticky = false;
+  //   // }
 
-  }
+  // }
   openOverlay: boolean = false;
   constructor() { }
 

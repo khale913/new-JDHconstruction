@@ -30,6 +30,7 @@
   margin-left: 8px;
   margin-right: 3px;
   fill: rgb(155, 0, 0);
+  cursor: pointer;
 }
 
 .home-img {
@@ -81,6 +82,7 @@
 }
 
 .subtext {
+  font-size: 1.25rem;
   margin-top: .5rem;
   margin-bottom: 1rem;
   color: rgb(223, 27, 27);
@@ -119,6 +121,7 @@
   border: 2px solid rgb(223, 27, 27);
   color: white;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .contact-btn:hover {
@@ -137,6 +140,7 @@
   background-color: transparent;
   border: 2px solid white;
   color: white;
+  cursor: pointer;
 }
 
 .about-btn:hover {
@@ -166,6 +170,7 @@
 // WHAT WE DO SECTION
 ////////////////////////////////////
 .what-we-do-container {
+  z-index: -2;
   width: 100%;
   height: 450px;
   border: 1px solid black;
@@ -219,7 +224,8 @@
 }
 
 .informational-text {
-    font-family: 'Montserrat', sans-serif;
+  font-size: .85rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .what-we-img-container {
@@ -230,4 +236,277 @@
   object-fit: cover;
   height: 300px;
   width: 300px;
+}
+
+// media queries
+@media screen and (max-width: 750px) {
+
+  .contact-bar h2 {
+    font-size: .7rem;
+  }
+
+  .phone-icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .main-text{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .subtext {
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+  }
+
+  .margin-bot {
+    margin-bottom: 2rem;
+  }
+
+  .decor-line {
+    height: 220px;
+  }
+
+  .contact-btn {
+    min-width: 120px;
+    padding: 8px 15px;
+  }
+
+  .about-btn {
+    min-width: 120px;
+    padding: 8px 15px;
+  }
+
+  .what-head {
+    font-size: 2.5rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .what-subhead {
+    font-size: .95rem;
+    margin-bottom: 1rem;
+  }
+
+  .what-text {
+    height: 300px;
+    width: 325px;
+    padding-right: 2%;
+  }
+
+  .informational-text {
+    font-size: .79rem;
+  }
+
+  .horizontal-line {
+    bottom: 17px;
+    right: 19px;
+    height: 30px;
+    width: 30px;
+  }
+
+
+}
+
+// media queries
+@media screen and (max-width: 750px) {
+
+  .contact-bar h2 {
+    font-size: .7rem;
+  }
+
+  .phone-icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .main-text{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .subtext {
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+  }
+
+  .margin-bot {
+    margin-bottom: 2rem;
+  }
+
+  .decor-line {
+    height: 220px;
+  }
+
+  .contact-btn {
+    min-width: 120px;
+    padding: 8px 15px;
+  }
+
+  .about-btn {
+    min-width: 120px;
+    padding: 8px 15px;
+  }
+
+  .what-head {
+    font-size: 2.5rem;
+    margin-bottom: -1.5rem;
+  }
+
+  .what-subhead {
+    font-size: .95rem;
+    margin-bottom: 1rem;
+  }
+
+  .what-text {
+    height: 300px;
+    width: 325px;
+    padding-right: 2%;
+  }
+
+  .informational-text {
+    font-size: .79rem;
+  }
+
+  .horizontal-line {
+    bottom: 17px;
+    right: 19px;
+    height: 30px;
+    width: 30px;
+  }
+
+
+}
+
+// media queries
+@media screen and (max-width: 630px) {
+.what-header {
+  text-align: center;
+}
+
+.what-paragraph {
+  text-align: center;
+}
+
+.what-we-do-container {
+  height: auto;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.what-we-img-container img {
+  margin-right: 2rem;
+}
+
+.horizontal-line {
+  bottom: 17px;
+  right: -49px;
+}
+}
+
+// media queries
+@media screen and (max-width: 550px) {
+
+  .contact-bar h2 {
+    font-size: .85rem;
+  }
+
+  .phone-icon {
+    height: 12px;
+    width: 12px;
+    margin-left: 8px;
+    margin-right: 3px;
+    fill: rgb(155, 0, 0);
+    cursor: pointer;
+  }
+
+  .home-img {
+    width: 100%;
+    filter: brightness(.8);
+    overflow-x: hidden;
+  }
+
+
+  .relative {
+    border-bottom: 1px solid black;
+    position:relative;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  // image text
+  .text {
+    margin-left: 1rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .decor-line {
+    margin-right: .8rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    width: 3px;
+    background-color: rgb(216, 0, 0);
+  }
+
+  .main-text{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600;
+    color: white;
+  }
+
+  .subtext {
+    font-size: .9rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .margin-bot {
+    margin-bottom: .5rem;
+  }
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-btn {
+    font-size: .7rem;
+    border-radius: 2rem;
+    // width: min-content;
+    min-width: 100px;
+    padding: 4px 15px;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 2px solid rgb(223, 27, 27);
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+
+  .about-btn {
+    font-size: .7rem;
+    border-radius: 2rem;
+    // width: min-content;
+    min-width: 100px;
+    padding: 4px 15px;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+  }
+
+  .image {
+    height: 450px;
+  }
+
+
+
+
 }
