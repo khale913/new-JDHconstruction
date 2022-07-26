@@ -318,6 +318,14 @@
   background-image: url('../../assets/images/fireImg.jpg');
 }
 
+.commercial {
+  background-image: url('../../assets/images/commercialImg.jpg');
+}
+
+.biohaz {
+  background-image: url('../../assets/images/biohazIMG.jpg');
+}
+
 .smoke {
   background-image: url('../../assets/images/smokeImg.jpg');
 }
@@ -363,12 +371,31 @@
   color: yellow;
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 830px) {
 .services-box-container {
   flex-direction: column;
   align-items: center;
+}
+
+.what-we-img-container {
+  width: 100%;
+  height: auto;
+}
+
+.services-main-text {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.services-main-subtext {
+  text-align: center;
+}
+
+.servicesImg {
+  height: 2200px;
 }
 
 .services-box {
@@ -431,7 +458,7 @@
   }
 
   .what-subhead {
-    font-size: .95rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -442,7 +469,7 @@
   }
 
   .informational-text {
-    font-size: .79rem;
+    font-size: .9rem;
   }
 
   .horizontal-line {
@@ -472,7 +499,7 @@
 }
 
 .what-we-img-container img {
-  margin-right: 2rem;
+  // margin-right: 2rem;
 }
 
 .horizontal-line {
