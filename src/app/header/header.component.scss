@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 
+
+.contact-bar {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(19,30,99);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-bar h2 {
+  font-size: 1rem;
+  padding: .3rem 0;
+  color: white;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.phone-icon {
+  height: 12px;
+  width: 12px;
+  margin-left: 8px;
+  margin-right: 3px;
+  fill: rgb(155, 0, 0);
+  cursor: pointer;
+}
+
 .menu-icon {
   height: 40px;
   width: 40px;
@@ -169,6 +197,34 @@
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+
+}
+
+@media screen and (max-width: 550px) {
+  .contact-bar h2 {
+    font-size: .85rem;
+  }
+
+  .phone-icon {
+    height: 12px;
+    width: 12px;
+    margin-left: 8px;
+    margin-right: 3px;
+    fill: rgb(155, 0, 0);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contact-bar h2 {
+    font-size: 1rem;
+  }
+
+  .phone-icon {
+    height: 10px;
+    width: 10px;
   }
 }
 

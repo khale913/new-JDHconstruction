@@ -549,14 +549,15 @@
 
   .decor-line {
     margin-right: .8rem;
-    margin-bottom: 1rem;
-    height: 200px;
+    margin-bottom: 3rem;
+    height: 250px;
     width: 3px;
     background-color: rgb(216, 0, 0);
   }
 
   .main-text{
-    font-size: 2rem;
+    font-size: 3rem;
+    line-height: 50px;
     margin: 0;
     font-weight: 600;
     color: white;
@@ -569,7 +570,7 @@
   }
 
   .margin-bot {
-    margin-bottom: .5rem;
+    margin-bottom: 0rem;
   }
 
   .button-container {
@@ -579,11 +580,11 @@
   }
 
   .contact-btn {
-    font-size: .7rem;
+    font-size: .8rem;
     border-radius: 2rem;
     // width: min-content;
-    min-width: 100px;
-    padding: 4px 15px;
+    min-width: 135px;
+    padding: 8px 15px;
     white-space: nowrap;
     background-color: transparent;
     border: 2px solid rgb(223, 27, 27);
@@ -594,11 +595,11 @@
 
 
   .about-btn {
-    font-size: .7rem;
+    font-size: .8rem;
     border-radius: 2rem;
     // width: min-content;
-    min-width: 100px;
-    padding: 4px 15px;
+    min-width: 135px;
+    padding: 8px 15px;
     white-space: nowrap;
     background-color: transparent;
     border: 2px solid white;
