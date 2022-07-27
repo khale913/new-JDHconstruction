@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.373) 100%, transparent 100%),
+                    url('../../assets/images/daniel-mccullough--FPFq_trr2Y-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%, cover;
+}
+
+.relative {
+  border-bottom: 1px solid black;
+  position:relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// image text
+.text {
+  position: absolute;
+  color: red;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+.top-header {
+  font-family: 'Righteous', cursive;
+  font-size: 4.5rem;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+// areas container
+.areas-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4rem 3rem 6rem 0rem;
+}
+
+.areas-img {
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+}
+
+.areas-img img{
+  object-fit: cover;
+  width: 80%;
+}
+
+.areas-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.areas-head {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+}
+
+.areas-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-btn {
+  font-family: 'Righteous';
+  border-radius: 2rem;
+  // width: min-content;
+  font-size: 1rem;
+  min-width: 150px;
+  padding: 10px 30px;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  transition: .4s;
+  background-color: black;
+  color: white;
+  transition-delay: .1s;
+}
+
+@media screen and (max-width: 750px) {
+.areas-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.areas-img {
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.areas-img img {
+  width: 100%;
+}
+
+.areas-text{
+  margin: 0;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.areas-container {
+  margin: 2rem;
+}
+}

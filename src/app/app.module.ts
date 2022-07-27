@@ -12,6 +12,7 @@ import { CareersComponent } from './careers/careers.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { WaterDamageComponent } from './services/water-damage/water-damage.component';
 import { FireDamageComponent } from './services/fire-damage/fire-damage.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FireDamageComponent } from './services/fire-damage/fire-damage.componen
     CareersComponent,
     ContactUsComponent,
     WaterDamageComponent,
-    FireDamageComponent
+    FireDamageComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
