@@ -13,6 +13,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { WaterDamageComponent } from './services/water-damage/water-damage.component';
 import { FireDamageComponent } from './services/fire-damage/fire-damage.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { QuoteBoxComponent } from './services/quote-box/quote-box.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     ContactUsComponent,
     WaterDamageComponent,
     FireDamageComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    QuoteBoxComponent
   ],
   imports: [
     BrowserModule,
