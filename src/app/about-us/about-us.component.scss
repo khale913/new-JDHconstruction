@@ -7,8 +7,7 @@
 .image {
   height: 300px;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.373) 100%, transparent 100%),
-                    url('../../assets/images/daniel-mccullough--FPFq_trr2Y-unsplash.jpg');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.373) 100%, transparent 100%), url('../../assets/images/daniel-mccullough--FPFq_trr2Y-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
 }
@@ -59,7 +58,7 @@
 
 .areas-img img{
   object-fit: cover;
-  width: 80%;
+  width: 90%;
 }
 
 .areas-text {
@@ -104,7 +103,7 @@
 
 .work-container {
   background-color: rgb(243,243,243);
-  padding: 3rem;
+  padding: 3rem 3rem 2rem 3rem;
 }
 
 .work-container h2 {
@@ -116,8 +115,13 @@
 .work-container p {
   font-size: 1.1rem;
   line-height: 25px;
-  margin: 0 8rem 0 0;
+  // margin: 0 8rem 0 0;
   font-family: 'Montserrat', sans-serif;
+  // margin-bottom: 1rem;
+}
+
+.margin-bot {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1080px) {
@@ -128,7 +132,7 @@
   .work-container p {
     font-size: 1.1rem;
     line-height: 25px;
-    margin: 0 8rem 0 0;
+    // margin: 0 8rem 0 0;
     font-family: 'Montserrat', sans-serif;
   }
 }
@@ -166,7 +170,7 @@
 .work-container p {
   font-size: 1rem;
   line-height: 20px;
-  margin: 0 0rem 0 0;
+  // margin: 0 0rem 0 0;
 }
 }
 
