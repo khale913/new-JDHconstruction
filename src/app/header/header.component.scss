@@ -20,7 +20,7 @@
   padding: .3rem 0;
   color: white;
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .phone-icon {
@@ -57,7 +57,7 @@
 }
 
 .email-box h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   margin: 0;
@@ -110,16 +110,15 @@
   margin: 0 10px;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   white-space: nowrap;
 }
 
 .nav-btn:hover {
-
+  color:  rgb(230, 0, 0);
   transition: .2s;
-  transition-delay: .1s;
-  border-bottom: 2px solid rgb(230, 0, 0);
+  // border-bottom: 2px solid rgb(230, 0, 0);
 }
 
 /* Dropdown container - needed to position the dropdown content */
@@ -132,7 +131,7 @@
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
   font-size: 16px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   border: none;
   white-space: nowrap;
@@ -145,6 +144,8 @@
   font-family: inherit;
   margin: 0;
 }
+
+
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
@@ -177,6 +178,8 @@
 .topnav a:hover, .dropdown:hover .dropbtn {
   // background-color: #555;
   // color: white;
+  transition: .2s;
+  color:red;
 }
 
 /* Add a grey background to dropdown links on hover */

@@ -123,4 +123,17 @@
 
 }
 
+@media screen and (max-width: 350px) {
+  .contact-us-btn{
+    font-size: .9rem;
+    min-width: 120px;
+    padding: 5px 20px;
+    margin-right: 1rem;
+  }
 
+  .phone-btn{
+    font-size: .9rem;
+    min-width: 120px;
+    padding: 5px 20px;
+  }
+}
