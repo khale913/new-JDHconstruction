@@ -116,6 +116,9 @@
 }
 
 .nav-btn:hover {
+
+  transition: .2s;
+  transition-delay: .1s;
   border-bottom: 2px solid rgb(230, 0, 0);
 }
 

@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  // overflow-x: hidden;
 }
 
 .contact-bar {
@@ -376,6 +377,10 @@
   cursor: pointer;
 }
 
+.service-learn:hover {
+  color: rgb(223, 27, 27);
+}
+
 // get a quote section
 .quote-container {
   background-color: white;
@@ -453,6 +458,11 @@
 }
 
 @media screen and (max-width: 830px) {
+
+.main-text {
+  font-size: 3.5rem;
+}
+
 .services-box-container {
   flex-direction: column;
   align-items: center;
@@ -562,6 +572,10 @@
 
 // media queries
 @media screen and (max-width: 630px) {
+.text {
+  margin: 0;
+}
+
 .what-header {
   text-align: center;
 }
@@ -738,4 +752,18 @@
 
 
 
+}
+
+@media screen and (max-width: 590px) {
+
+  .main-text {
+    font-size: 2.8rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // overflow-x: hidden;
 }
