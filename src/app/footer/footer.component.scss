@@ -42,7 +42,16 @@
 .sub {
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
+  width: min-content;
+  white-space: nowrap;
 }
+
+.sub:hover {
+  // border-bottom: 1px solid white;
+  transition: .2s;
+  box-shadow: 0 1px 0px 0px white;
+}
+
 
 
 .office-phone {
