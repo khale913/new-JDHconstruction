@@ -121,6 +121,8 @@
   // border-bottom: 2px solid rgb(230, 0, 0);
 }
 
+
+
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
   cursor: pointer;
@@ -184,7 +186,7 @@
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
-  // background-color: rgb(37, 58, 192);
+  transition: .3s;
   background-color: rgb(230, 0, 0);
   color: white;
 }

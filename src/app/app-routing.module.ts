@@ -5,7 +5,11 @@ import { CareersComponent } from './careers/careers.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { OurWorkComponent } from './our-work/our-work.component';
+import { BiohazardComponent } from './services/biohazard/biohazard.component';
+import { CommercialServicesComponent } from './services/commercial-services/commercial-services.component';
 import { FireDamageComponent } from './services/fire-damage/fire-damage.component';
+import { MoldRemovalComponent } from './services/mold-removal/mold-removal.component';
+import { SmokeDamageComponent } from './services/smoke-damage/smoke-damage.component';
 import { WaterDamageComponent } from './services/water-damage/water-damage.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,6 +19,10 @@ const routes: Routes = [
   { path: 'waterdmg', component: WaterDamageComponent },
   { path: 'firedmg', component: FireDamageComponent },
   { path: 'about', component: AboutUsComponent },
+  { path: 'smokedmg', component: SmokeDamageComponent },
+  { path: 'commercial', component: CommercialServicesComponent },
+  { path: 'biohazard', component: BiohazardComponent },
+  { path: 'moldremoval', component: MoldRemovalComponent },
 ];
 
 @NgModule({

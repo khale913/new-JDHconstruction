@@ -40,11 +40,14 @@
 }
 
 .sub {
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   width: min-content;
   white-space: nowrap;
 }
+
+
 
 .sub:hover {
   // border-bottom: 1px solid white;
