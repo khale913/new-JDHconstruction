@@ -27,4 +27,8 @@ export class HeaderComponent implements OnInit {
     this.openOverlay = !this.openOverlay;
   }
 
+  closeModal() {
+    this.openOverlay = false;
+  }
+
 }

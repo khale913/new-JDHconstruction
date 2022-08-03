@@ -58,14 +58,15 @@
 </div>
 
 <div id="myNav" class="overlay" [ngClass]="{ 'overlay-open': openOverlay === true}">
-  <a href="javascript:void(0)" class="closebtn" (click)="openOverlayMenu()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" (click)="openOverlayMenu()" class="overlay-x">&times;</a>
   <div class="overlay-content">
-    <a href="#">HOME</a>
-    <a href="#">SERVICES</a>
-    <a href="#">OUR WORK</a>
-    <a href="#">LOCATIONS</a>
-    <a href="#">CAREERS</a>
-    <a href="#">CONTACT US</a>
+    <a href="#" class="overlay-tab" (click)="closeModal()" routerLink="/" routerLinkActive="active">HOME</a>
+    <a href="#" class="overlay-tab" (click)="closeModal()">SERVICES</a>
+    <a href="#" class="overlay-tab" routerLink="/work" routerLinkActive="active" (click)="closeModal()">OUR WORK</a>
+    <a href="#" class="overlay-tab" routerLink="/about" routerLinkActive="active" (click)="closeModal()">ABOUT US</a>
+    <a href="#" class="overlay-tab" routerLink="/careers" routerLinkActive="active" (click)="closeModal()">CAREERS</a>
+    <a href="#" class="overlay-tab" routerLink="/contact" routerLinkActive="active" (click)="closeModal()">CONTACT
+      US</a>
   </div>
 </div>
 <div class="contact-bar">
