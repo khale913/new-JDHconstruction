@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.373) 100%, transparent 100%),
+                    url('../../../assets/images/contactimg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%, cover;
+}
+
+.relative {
+  border-bottom: 1px solid black;
+  position:relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// image text
+.text {
+  position: absolute;
+  color: red;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+.top-header {
+  font-family: 'Righteous', cursive;
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+.padding-top {
+  padding-top: 2rem;
+}
+
+.description-container {
+  display: flex;
+}
+
+.text-container {
+  flex: 1.5;
+}
+
+.img-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  padding-top: 2rem;
+}
+
+.img-container img {
+  object-fit: cover;
+  height: 400px;
+  width: 350px;
+  -webkit-box-shadow: 0px 30px 40px 0px rgb(0 0 0 / 20%);
+  box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.38);
+}
+
+.first-text-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rem;
+}
+
+.img-line {
+  width: 6px;
+  height: 200px;
+  background-color: rgb(223, 27, 27);
+}
+
+.first-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-header h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+}
+
+.first-header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.call-us-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.call-us-btn-container button {
+  font-family: 'Righteous', cursive;
+  font-size: 1.1rem;
+  padding: 15px 100px;
+  border-radius: 35px;
+  border: 5px solid rgb(19,30,99);
+  background-color: white;
+  -webkit-box-shadow: 0px 30px 40px 0px rgb(0 0 0 / 20%);
+  box-shadow: 0px 30px 40px 0px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.call-us-btn-container button:hover {
+  font-family: 'Righteous', cursive;
+  font-size: 1.1rem;
+  padding: 15px 100px;
+  border-radius: 35px;
+  border: 5px solid rgb(176, 10, 10);
+  background-color: rgb(176, 10, 10);
+  color: white;
+}
+
+
+@media screen and (max-width: 1080px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 500px) {
+.top-header {
+  font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 350px) {
+  .top-header {
+    font-size: 2.5rem;
+  }
+  }
