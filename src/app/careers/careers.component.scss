@@ -96,7 +96,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: rgb(19,30,99);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -124,6 +124,10 @@ input[type=submit]:hover {
   background-color: #00aaff;
 }
 
+.resume {
+  padding-bottom: .5rem;
+}
+
 @media screen and (max-width: 900px) {
   .apply-container {
     display: flex;
@@ -142,6 +146,7 @@ input[type=submit]:hover {
   .apply-text-container {
     flex: 1;
     margin-top: 1rem;
+    padding-left: .5rem;
   }
 
   .apply-text-container h2 {
