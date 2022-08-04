@@ -10,6 +10,12 @@
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.373) 100%, transparent 100%), url('../../assets/images/daniel-mccullough--FPFq_trr2Y-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .relative {
