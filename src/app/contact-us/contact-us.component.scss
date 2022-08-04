@@ -8,7 +8,7 @@
   height: 300px;
   width: 100%;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.373) 100%, transparent 100%),
-                    url('../../assets/images/contactimg.jpg');
+                    url('../../assets/images/newhomes.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
 }
@@ -24,9 +24,6 @@
 .text {
   position: absolute;
   color: red;
-  width: 100%;
-  text-align: center;
-  justify-content: center;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -37,29 +34,167 @@
 .top-header {
   font-family: 'Righteous', cursive;
   font-size: 4.5rem;
-  letter-spacing: 2px;
   color: transparent;
+  letter-spacing: 2px;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
 }
 
-
-@media screen and (max-width: 1080px) {
-
+.apply-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 4rem 5% 4rem 10%;
 }
 
-@media screen and (max-width: 750px) {
+.apply-text-container {
+  flex: .8;
+  height: min-content;
+  width: min-content;
+  background-color: rgb(243,243,243);
+  padding: 40px 30px 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 30px 40px 0px rgb(0 0 0 / 20%);
+}
+
+.contact-header {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+}
+
+
+.apply-form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-family: 'Righteous', cursive;
+  font-size: 1rem;
+}
+
+.topic {
+  font-family: 'Righteous', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  // background: rgb(243,243,243);
+  // padding: 1rem;
+  // border-radius: 10px;
+  // // margin-right: 10%;
+  // -webkit-box-shadow: 0px 30px 40px 0px rgb(0 0 0 / 20%);
+  // box-shadow: 0px 30px 40px 0px rgba(0,0,0,.2);
+}
+
+.form-container {
+  width: 75%;
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  // border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: 'Righteous', cursive;
+  font-size: 1rem;
+  background-color:  black;
+  color: white;
+  padding: 12px 100px;
+  min-width: 100%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(19,30,99);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.horizontal-line {
+  position: relative;
+  bottom: 65px;
+  right: 10px;
+  height: 33px;
+  width: 33px;
+  z-index: -1;
+  background-color: #00aaff;
+}
+
+
+.contact-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.mail-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.email h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .apply-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 5% 4rem 10%;
+  }
+
 
 }
 
 @media screen and (max-width: 500px) {
-.top-header {
-  font-size: 3rem;
-}
-}
-
-@media screen and (max-width: 350px) {
   .top-header {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+
+  .apply-text-container {
+    flex: 1;
+  }
+
+  .apply-form-container {
+    flex: 1;
+  }
+
+  label {
+    font-family: 'Righteous', cursive;
+    font-size: 1rem;
+  }
+
+  form {
+    background: rgb(243,243,243);
+    padding: 1rem;
+    border-radius: 10px;
+    // margin-right: 10%;
+    -webkit-box-shadow: 0px 30px 40px 0px rgb(0 0 0 / 20%);
+    box-shadow: 0px 30px 40px 0px rgba(0,0,0,.2);
   }
   }

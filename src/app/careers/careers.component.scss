@@ -96,16 +96,17 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(19,30,99);
+  background-color:  #00aaff;;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 100px;
+  min-width: 100%;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(19,30,99);
 }
 
 .container {
