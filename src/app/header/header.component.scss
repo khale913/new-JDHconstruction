@@ -196,6 +196,38 @@
   display: block;
 }
 
+
+@media screen and (max-height: 1100px) {
+  .nav-tabs-container {
+    padding-right: .5rem;
+  }
+
+  .email-box {
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-height: 1100px) {
+  .logo-img {
+    width: 85%;
+  }
+}
+
+@media screen and (max-height: 950px) {
+  .logo-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -368,12 +400,4 @@
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
 
