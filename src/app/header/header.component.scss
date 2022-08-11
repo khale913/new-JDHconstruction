@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 
 
@@ -21,6 +22,7 @@
   color: white;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  cursor: pointer;
 }
 
 .phone-icon {
@@ -54,6 +56,7 @@
 .email-box {
   display: flex;
   padding-right: 5rem;
+  cursor:crosshair;
 }
 
 .email-box h2 {
@@ -61,6 +64,7 @@
   font-weight: 600;
   font-size: 1rem;
   margin: 0;
+  cursor: crosshair;
 }
 
 .phone-icon {
@@ -69,6 +73,7 @@
   margin-left: 20px;
   margin-right: 3px;
   fill: rgb(203, 0, 0);
+
 }
 
 .mail-icon {
@@ -98,12 +103,15 @@
 
 .logo-img {
   width: 70%;
+  cursor: pointer;
 }
 
 .logo h2 {
   margin: 0;
   font-size: 2rem;
 }
+
+
 
 .nav-btn {
   color: black;
@@ -113,6 +121,11 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   white-space: nowrap;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -145,6 +158,7 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  cursor: pointer;
 }
 
 
@@ -161,6 +175,11 @@
   z-index: 1;
   padding-top: .5rem;
   transition: .4s;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 /* Style the links inside the dropdown */
@@ -172,6 +191,11 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 
@@ -182,6 +206,10 @@
   // color: white;
   transition: .2s;
   color:red;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 /* Add a grey background to dropdown links on hover */
