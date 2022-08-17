@@ -1,15 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-
+import { HeaderComponent } from '../header/header.component';
+import { TabServiceService } from '../tab-service.service';
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.scss']
 })
 export class ContactUsComponent implements OnInit {
-
-  constructor() { }
+  count: number | undefined;
+  constructor(public header: HeaderComponent, private service: TabServiceService) { }
 
   ngOnInit(): void {
+    this.service.count.subscribe(c => {
+      this.count = c;
+    })
+
+    this.service.nextCount(6);
+
+
   }
+
+
+
+
+
 
 }

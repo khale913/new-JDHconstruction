@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Injectable, Input } from '@angular/core';
 import { HostListener } from '@angular/core';
+import { TabServiceService } from '../tab-service.service';
+
+@Injectable()
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -17,10 +20,16 @@ export class HeaderComponent implements OnInit {
   //   // }
 
   // }
+  count: number | undefined;
+  activeTab: number = 1;
   openOverlay: boolean = false;
-  constructor() { }
+  constructor(private appsevice: TabServiceService) {
+  }
 
   ngOnInit(): void {
+    this.appsevice.count.subscribe(c => {
+      this.count = c;
+    })
   }
 
   openOverlayMenu() {
@@ -30,5 +39,7 @@ export class HeaderComponent implements OnInit {
   closeModal() {
     this.openOverlay = false;
   }
+
+
 
 }

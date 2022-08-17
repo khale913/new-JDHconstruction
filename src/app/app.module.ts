@@ -17,6 +17,7 @@ import { QuoteBoxComponent } from './services/quote-box/quote-box.component';
 import { MoldRemovalComponent } from './services/mold-removal/mold-removal.component';
 import { BiohazardComponent } from './services/biohazard/biohazard.component';
 import { CommercialServicesComponent } from './services/commercial-services/commercial-services.component';
+import { TabServiceService } from './tab-service.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { CommercialServicesComponent } from './services/commercial-services/comm
     AppRoutingModule,
     // BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [HeaderComponent, TabServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

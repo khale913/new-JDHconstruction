@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TabServiceService } from 'src/app/tab-service.service';
 
 @Component({
   selector: 'app-water-damage',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./water-damage.component.scss']
 })
 export class WaterDamageComponent implements OnInit {
-
-  constructor() { }
+  count: number | undefined;
+  constructor(private service: TabServiceService) { }
 
   ngOnInit(): void {
+    this.service.count.subscribe(c => {
+      this.count = c;
+    })
+
+    this.service.nextCount(2);
+
+
   }
 
 }
