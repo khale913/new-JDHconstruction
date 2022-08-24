@@ -501,6 +501,7 @@
 .services-main-text {
   text-align: center;
   font-size: 4rem;
+  line-height: 3.2rem;
 }
 
 .services-main-subtext {
@@ -703,7 +704,7 @@
 
   // image text
   .text {
-    margin-left: 1rem;
+    margin-left: 0rem;
     height: 100%;
     width: 100%;
     display: flex;

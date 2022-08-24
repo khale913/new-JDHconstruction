@@ -396,7 +396,7 @@
 // }
 
 .overlay-tab {
-  padding: 35px;
+  padding: 28px;
   font-family: 'Righteous', cursive;
   text-decoration: none;
   font-size: 25px;
@@ -430,4 +430,13 @@
 
 .active-label {
   color: rgb(230, 0, 0);
+}
+#overlay-subTab {
+  padding: 15px;
+  font-family: 'Righteous', cursive;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
 }
